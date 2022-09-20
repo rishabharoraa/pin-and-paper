@@ -1,0 +1,20 @@
+.wrapper {
+	width: 80%;
+	margin: auto;
+	padding-top: 4rem;
+}
+
+.heading {
+	text-align: center;
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.itemsGrid {
+	margin: auto;
+	display: grid;
+	gap: 4rem;
+	grid-template-columns: repeat(4, 1fr);
+	justify-content: center;
+	justify-items: stretch;
+}

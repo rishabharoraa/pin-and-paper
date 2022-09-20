@@ -1,0 +1,38 @@
+.wrapper {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.detailsWrapper {
+	padding: 1rem;
+}
+
+.thumbnail {
+	height: 16rem;
+	position: relative;
+}
+
+.buttonWrapper {
+	background-color: #f9a8d4;
+}
+
+.button {
+	padding: 0.66rem 0rem;
+	border: none;
+	background: none;
+	outline: none;
+	width: 100%;
+	color: #fff;
+	font-size: 1rem;
+	transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.button:hover {
+	background-color: #e097bf;
+}
+
+.itemName {
+	margin-bottom: 0.2rem;
+	font-size: 1.2rem;
+}
